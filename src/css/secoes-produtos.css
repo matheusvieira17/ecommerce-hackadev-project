@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.qtdItens {
+    font-family: var(--fonte-padrao);
+    padding: 5%;
+    margin-top: 5%;
+    opacity: 0.5;
+}
+.itens {
+    display: flex;
+    margin-top: 5%;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imagem {
+    width: 20%;
+    margin-left: 1%;
+    background-color: #f0f8ff;   
+}
+
+.descricao-produto {
+
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.parcelas {
+    color: var(--cor-especial);
+    opacity: 0.5;
+}

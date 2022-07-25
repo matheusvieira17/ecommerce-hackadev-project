@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.pesquisa-produtos {
+
+    font-family: var(--fonte-padrao);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 2%;
+    border-bottom: 1px solid black;
+} 
+
+.pesquisa-produtos h2 {
+    font-family: var(--fonte-padrao); 
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+i {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 0.3rem;
+
+    position: fixed;
+    right: 27%;
+    top: 0.4rem; 
+}
+
+.caixa-pesquisa {
+    padding: 0.2rem;
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
+    width: 98%;
+    font-size: 1.25rem;
+    font-family: var(--fonte-padrao);
+    border-radius: 0.5rem;
+
+}
+
+.caixa-pesquisa::placeholder {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-style: italic;
+}

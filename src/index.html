@@ -1,18 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-commerce | Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
+    <title> E-commerce | Busca de produtos </title>
+    <link rel="stylesheet" href="css/configuracoes-globais.css">
+    <link rel="stylesheet" href="css/pesquisa-produtos.css">
+    <link rel="stylesheet" href="css/secoes-produtos.css">
 </head>
+
 <body>
-  
+
+    <main class="container">
+
+        <section class="pesquisa-produtos">
+            <i class="fa-solid fa-arrow-left "> </i>
+            <h2 id="texto"> Buscar produtos </h2>
+
+        </section>
+
+        <article>
+
+            <form action="">
+                <input
+                type="text"
+                placeholder="Produto"
+                class="caixa-pesquisa">
+            </form>
+
+            <span class="qtdItens">
+                4 itens 
+            </span>
+
+            <div class="itens">
+                <img src="img/card1.png" alt="" class="imagem">
+
+                <p class="descricao-produto"> 
+                    Vestido verde florido 
+                </p>
+
+                <p class="descricao-produto"> 
+                    R$ 199,90 ou <span class="parcelas">
+                        3x R$ 66,63 </span>  
+                </p>
+            </div>
+
+            <div class="itens">
+                <img src="img/card2.png" alt="" class="imagem">
+
+                <p class="descricao-produto"> 
+                    Calça branca
+                </p>
+
+                <p class="descricao-produto"> R$ 219.90 ou 
+                    <span class="parcelas"> 3x R$ 73.30 </span> 
+                </p>
+
+            </div>
+
+
+            <div class="itens">
+                <img src="img/card11.png" alt="" class="imagem">
+                <p class="descricao-produto"> 
+                    Tênis preto
+                </p>
+
+                <p class="descricao-produto"> 
+                    R$ 69.90 ou <span class="parcelas">
+                        2x R$ 34.95 </span>
+                </p>
+            </div>
+
+            <div class="itens">
+                <img src="img/card10.png" alt="" class="imagem">
+                <p class="descricao-produto"> 
+                    Tênis preto
+                </p>
+
+                <p class="descricao-produto">
+                    R$ 59.90 ou <span class="parcelas">
+                        1x 59.90</span>
+                </p>
+
+            </div>
+
+        </article>
+    </main>
+
+    
 </body>
+<script src="https://kit.fontawesome.com/93c4210ca3.js" crossorigin="anonymous"></script>
+
 </html>
